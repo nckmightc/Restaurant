@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.background {
+    color: white;
+}
+
+.main-nav {
+    font-size: 30px;
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+}
+
+.main-li {
+    text-align: center;
+    
+    margin: 20px;
+}
+
+.menu-items {
+    list-style-type: none;
+}
+
+/*Media Queries*/
+
+@media (max-width: 500px) {
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-li {
+       font-size: 30px;
+       flex-wrap: wrap;
+    }
+}
