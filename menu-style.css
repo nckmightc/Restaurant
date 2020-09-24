@@ -2,11 +2,11 @@ body {
     margin: 0px;
     border: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: none;
 }
 
 .background {
-    color: white;
+    color: black;
 }
 
 .main-nav {
