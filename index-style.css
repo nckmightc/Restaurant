@@ -5,12 +5,9 @@ body {
     background-color: black;
 }
 
-.background {
-    color: white;
-}
-
 .main-nav {
     font-size: 30px;
+    color: white;
     list-style-type: none;
     margin: auto;
     display: flex;
@@ -22,21 +19,8 @@ body {
     margin: 20px;
 }
 
-.starters-items {
+.menu-items {
     list-style-type: none;
-    font-size: ;
-}
-
-.entrees-items {
-    list-style-type: none;
-}
-
-.sides-items {
-    list-style-type: none;
-}
-
-.ingredients {
-    font-size: 12px;
 }
 
 /*Media Queries*/
