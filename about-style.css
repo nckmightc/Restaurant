@@ -13,15 +13,7 @@ body {
     display: flex;
 }
 
-.main-li {
-    text-align: center;
-    
-    margin: 20px;
-}
 
-.menu-items {
-    list-style-type: none;
-}
 
 /*Media Queries*/
 
