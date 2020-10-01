@@ -10,7 +10,9 @@ body {
 }
 
 .main-nav {
+    font-family: 'Unica One', cursive;
     font-size: 30px;
+    color: black;
     list-style-type: none;
     margin: auto;
     display: flex;

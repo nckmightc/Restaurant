@@ -14,23 +14,10 @@ body {
     display: flex;
 }
 
-.logo {
-    width: 215px;
-    height: 200px;
-    float: left;
-}
-
 .main-li {
     text-align: center;
+    
     margin: 20px;
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: black;
 }
 
 .container {
@@ -54,25 +41,8 @@ a:visited {
         flex-direction: column;
     }
 
-    .logo {
-        width: 215px;
-        height: 200px;
-        display: none;
-    }
-
     .main-li {
-       border: none;
-       background-color: none;
        font-size: 30px;
-       float: none;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .container-item {
-        margin: 20px;
+       flex-wrap: wrap;
     }
 }
